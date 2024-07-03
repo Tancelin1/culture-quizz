@@ -1,0 +1,27 @@
+{
+	"name": "culture-quizz api",
+	"version": "1.0.0",
+	"description": "backend from culture-quizz",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"Nodejs",
+		"API",
+		"REST",
+		"Mongoose",
+		"CRUD"
+	],
+	"author": "tancelin",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"cors": "^2.8.5",
+		"express": "^4.16.4",
+		"lodash": "^4.17.11",
+		"mongoose": "^8.4.4",
+		"validator": "^10.11.0"
+	}
+}
